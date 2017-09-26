@@ -72,7 +72,7 @@ testing <- testing[,-boringCols]
 validation <- validation[,-boringCols]
 ```
 
-## Prediction
+## Training
 
 While several training algorithms taught in this class could be used to train a model, using a random forest returns $>99\%$ accuracy. Other methods, such as linear discriminant analysis and gradient boosting, take a lot of time and report space without ultimately improving the accuracy of the model. Therefore, the random forest algorithm alone is used to predict activity class.
 
@@ -109,5 +109,3 @@ Accuracy could potentially be improved upon if the timestamp variables were used
 ## Bibliography
 
 Velloso, E.; Bulling, A.; Gellersen, H.; Ugulino, W.; Fuks, H. Qualitative Activity Recognition of Weight Lifting Exercises. Proceedings of 4th International Conference in Cooperation with SIGCHI (Augmented Human '13) . Stuttgart, Germany: ACM SIGCHI, 2013.
-
-
